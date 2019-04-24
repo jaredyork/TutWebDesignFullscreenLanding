@@ -1,0 +1,71 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.landing-outer-wrapper {
+  display: table;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/samuel-zeller-19361-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-inner-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.landing-centered {
+  margin: 0 auto;
+  width: 960px;
+  height: 300px;
+}
+
+.landing-centered h1, .landing-centered h4 {
+  color: white;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.landing-centered h1 {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 6em;
+}
+
+.landing-centered h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+}
+
+@media (max-width: 960px) {
+  .landing-centered {
+    width: 100%;
+    height: 160px;
+  }
+
+  .landing-centered h1 {
+    font-size: 4.5em;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .landing-centered {
+    width: 100%;
+    height: 160px;
+  }
+
+  .landing-centered h1 {
+    font-size: 3em;
+  }
+
+  .landing-centered h4 {
+    font-size: 1.25em;
+  }
+  
+}
